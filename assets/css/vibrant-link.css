@@ -786,9 +786,8 @@ preloader
     opacity: 1;
     visibility: visible;
     z-index: 9999;
-    -webkit-transition: opacity 3.90s ease;
-    transition: opacity 3.90s ease;
-    
+    -webkit-transition: opacity 0.90s ease;
+    transition: opacity 0.90s ease;
 }
 
 .js-preloader.loaded {
