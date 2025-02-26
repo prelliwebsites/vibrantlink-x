@@ -130,7 +130,7 @@
 
        setTimeout(function(){
         $('#js-preloader').addClass('loaded');
-       },5000);
+       },1000);
 
     });
 
@@ -151,3 +151,9 @@
 
 
 })(window.jQuery);
+
+
+function openNewTab() {
+  // This opens a new tab with a specified URL
+  window.open('https://www.example.com', '_blank');
+}
