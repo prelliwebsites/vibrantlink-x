@@ -130,7 +130,7 @@
 
        setTimeout(function(){
         $('#js-preloader').addClass('loaded');
-       },1000);
+       },5000);
 
     });
 
